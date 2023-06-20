@@ -8,7 +8,7 @@ const FixturesPage = () => {
   const apiKey = import.meta.env.VITE_API_KEY;
   const getLiveFixtures = () => {
     setLoading(true);
-    fetch("http://37.59.197.183:5000/api/fixtures", {
+    fetch("url", {
       method: "GET",
       headers: {
         "Content-Type": "Application/json",
